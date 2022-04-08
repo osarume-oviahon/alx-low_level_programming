@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
   * main - Entry point
-  * 
+  *
   * Return: Always 0 (Success)
   */
 int main(void)
@@ -11,7 +11,7 @@ int main(void)
 	while (c < 10)
 	{
 		putchar(48 + c);
-	if (c !=9)
+	if (c != 9)
 	{
 		putchar (',');
 		putchar (' ');
