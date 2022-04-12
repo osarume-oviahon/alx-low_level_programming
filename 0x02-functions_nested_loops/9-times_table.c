@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-  * times-tables -prints tables
+  * times-tables - prints tables
   *
   * Return: Always 0.
   */
