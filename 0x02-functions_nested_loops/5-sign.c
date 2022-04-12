@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * print_sign - Prints the sign of a number.
- * @n: The number of which the sign will be printed.
- *
- * Return: Always 0
- */
+  * print_sign - return 0 letter not lowercase, 1 letter lowercase
+  *
+  *@n: the int to print
+  * Return: Always 0.
+  */
 int print_sign(int n)
 {
 	if (n > 0)
@@ -22,7 +22,7 @@ int print_sign(int n)
 
 	else
 	{
-		-putchar ('-');
+		_putchar ('-');
 		return (-1);
 	}
 
