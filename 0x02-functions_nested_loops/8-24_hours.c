@@ -6,7 +6,7 @@
   * Return: Always 0.
   */
 
-int jack_bauer(void)
+void jack_bauer(void);
 {
 int a, b;
 
@@ -20,6 +20,7 @@ int a, b;
 		_putchar (b / 10 + '0');
 		_putchar (b % 10 + '0');
 		_putchar ('\n');
+		return (0);
 
 	}
 
