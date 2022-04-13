@@ -6,8 +6,9 @@
   * Return: Always 0.
   */
 
-void jack_bauer(void)
+void jack_bauer:(void)
 {
+
 int a, b;
 
 	for (a = 0; <= 23; a++)
