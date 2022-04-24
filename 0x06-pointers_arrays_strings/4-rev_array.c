@@ -14,16 +14,22 @@ void reverse_array(int *a, int n)
 	int *start_c, *end_c, c;
 	int b;
 
+
 	start_c = a;
 	end_c = a;
+
 
 	for (b = 0; b < n - 1; b++)
 	{
 		end_c++;
 	}
 
+
+
+
 	for (b = 0; b < n /2; b++)
 	{
+
 
 		c = *end_c;
 		*end_c = *start_c;
