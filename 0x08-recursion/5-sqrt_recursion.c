@@ -2,8 +2,9 @@
 
 /**
  *_sqrt_recursion - returns the natural square root of a number
- *@n: interger
- *
+ *_evaluate - evaluates a given number
+ *@n: variable
+ *@a: variable
  *Return: 0
  */
 
