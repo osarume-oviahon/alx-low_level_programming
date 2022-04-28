@@ -21,10 +21,10 @@ int _evaluate(int a, int n)
 int _sqrt_recursion(int n)
 {
 	int a = 0;
+
 	if (a < 0)
 		return (-1);
 	else
-	{
 		return (_evaluate(a, n));
-	}
+
 }
