@@ -9,12 +9,12 @@
 
 int _strlen_recursion(char *s)
 {
-	char *s[] = Length of the string
+	char s[] = "Length of the string";
 	int i;
 
-	for (i = 0; *s[i] != '\0'; ++i);
+	for (i = 0; s[i] != '\0'; ++i);
 
-	_putchar(*s);
+	_putchar(s);
 		return (0);
 
 }
