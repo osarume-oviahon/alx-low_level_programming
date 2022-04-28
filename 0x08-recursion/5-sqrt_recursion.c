@@ -20,6 +20,9 @@ int _evaluate(int a, int n)
 
 /**
   *_sqrt_recursion - returns the natural square root of a number
+  *@n: variable
+  *
+  *Return: 0
   */
 
 int _sqrt_recursion(int n)
