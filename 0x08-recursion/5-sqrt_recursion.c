@@ -2,7 +2,7 @@
 
 /**
  *_evaluate - evaluates a given number
- **_sqrt_recursion - returns the natural square root of a number
+ *_sqrt_recursion - returns the natural square root of a number
  *@n: variable
  *@a: variable
  *Return: 0
