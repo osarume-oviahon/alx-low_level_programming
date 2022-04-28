@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * print_chessboard - prints the sum of the two diagonals of a square matrix of integers
+ * print_chessboard - prints the sum of the two diagonals of a square matrix
  * @a: 2d array of chars
  *Return: void
  */
