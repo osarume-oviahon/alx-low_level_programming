@@ -17,8 +17,8 @@ int main(int argc, char *argv[])
 		if (count < argc)
 		{
 			printf("%s\n", argv[count]);
+			count++;
 		}
-		count++;
 	}
 
 	return (0);
