@@ -31,6 +31,7 @@ int _strlen(char *s)
 char *_strcpy(char *dest, char *src)
 {
 	int integer = 0;
+
 	while (src[integer] != '\0')
 	{
 		dest[integer] = src[integer];
