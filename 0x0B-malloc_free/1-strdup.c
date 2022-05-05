@@ -60,8 +60,8 @@ char *_strdup(char *str)
 
 	size = _strlen(str) + 1;
 
-	array = (char *) malloc(size *sizeof(char));
-	
+	array = (char *) malloc(size * sizeof(char));
+
 	if (array == 0)
 	{
 		return (NULL);
