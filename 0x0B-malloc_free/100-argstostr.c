@@ -36,10 +36,10 @@ char *argstostr(int ac, char **av)
 	{
 		for (arg2 = 0; av[arg1][arg2] != '\0'; arg2++)
 		{
-			str[arg3] = av[arg1][arg2];
+			array[arg3] = av[arg1][arg2];
 			arg3++;
 		}
-		str[arg3] = '\n';
+		array[arg3] = '\n';
 		arg3++;
 	}
 	return (array);
