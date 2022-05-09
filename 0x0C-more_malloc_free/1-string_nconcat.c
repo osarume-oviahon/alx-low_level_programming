@@ -43,7 +43,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 		pointer[integer] = s1[integer];
 	}
 
-	for (integer < (string1 + n); integer++)
+	for (; integer < (string1 + n); integer++)
 	{
 		pointer[integer] = s2[integer - string1];
 	}
