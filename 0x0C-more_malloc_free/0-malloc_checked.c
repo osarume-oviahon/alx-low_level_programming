@@ -4,7 +4,7 @@
 #include <limits.h>
 
 /**
- *malloc_checked - provides a quick workaround that may allow the code to temporarily function
+ *malloc_checked - provides a quick workaround for debugging
  *@b: allocated memory space
  *Return: void
  */
